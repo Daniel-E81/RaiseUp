@@ -1,0 +1,52 @@
+/* start nav */
+.navbar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+/* end nav */
+/* start slider */
+.carousel-item img{
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-caption {
+    top: 40%;
+}
+
+
+.carousel-caption h5 {
+    font-size: 3.1rem;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 576px) {
+
+
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+/* end slider */
+/* start serves */
+.serves {
+    margin: 5% 0;
+}
+
+.serves .cor-font {
+    color: #3498db;
+}
+
+/* end serves */
