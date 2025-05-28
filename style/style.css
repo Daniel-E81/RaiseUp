@@ -1,10 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 /* start nav */
 .navbar {
     position: fixed;
     z-index: 9999;
     width: 100%;
 }
-
+.active{
+    background-color: #0097e6;
+    color: #f5f6fa !important;
+    border-radius: 5px;
+}
 /* end nav */
 /* start slider */
 .carousel-item img{
@@ -17,8 +24,6 @@
 .carousel-caption {
     top: 40%;
 }
-
-
 .carousel-caption h5 {
     font-size: 3.1rem;
 }
@@ -40,6 +45,21 @@
 }
 
 /* end slider */
+/* Start Project  */
+.project div .caption {
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.project div h2 {
+    font-size: 2rem;
+    color: #3498db;
+}
+.project div p{
+    font-size: 1rem;
+    color: #333;
+}
+/* End Project  */
 /* start serves */
 .serves {
     margin: 5% 0;
@@ -50,3 +70,41 @@
 }
 
 /* end serves */
+/* start testmonial */
+.testmonial .container div img{
+    height: 47%;
+}
+/* end testmonial */
+
+/* start sign up */
+section.sign-up{
+    padding: 7% 0;
+    background-image: url(../img/bg-masthead.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section.sign-up .container .caption h3{
+    font-size: 1.3rem;
+    color: #fff;
+}
+/* end sign up */
+/* Start Scroll up page */
+.ScrollUp{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #0097e6;
+    color: #f5f6fa !important;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    z-index: 123456789;
+}
+/* End Scroll up page */
